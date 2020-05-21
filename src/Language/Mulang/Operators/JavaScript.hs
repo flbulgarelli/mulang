@@ -7,8 +7,8 @@ import Language.Mulang.Ast.Operator (Operator (..))
 javaScriptTokensTable :: TokensTable
 javaScriptTokensTable =
   buildTokensTable [
-    (Like, ["=="]),
+    (Similar, ["=="]),
     (Equal, ["==="]),
-    (NotLike, ["!="]),
+    (NotSimilar, ["!="]),
     (NotEqual, ["!=="])
   ]
