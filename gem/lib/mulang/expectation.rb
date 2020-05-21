@@ -35,6 +35,7 @@ module Mulang::Expectation
     ReturnsNull
     ShouldInvertIfCondition
     ShouldUseOtherwise
+    ShouldUseStrictComparators
     UsesCut
     UsesFail
     UsesUnificationOperator)

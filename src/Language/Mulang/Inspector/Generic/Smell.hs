@@ -25,7 +25,8 @@ module Language.Mulang.Inspector.Generic.Smell (
   overridesEqualOrHashButNotBoth,
   returnsNil,
   shouldInvertIfCondition,
-  shouldUseOtherwise) where
+  shouldUseOtherwise,
+  shouldUseStrictComparators) where
 
 import           Language.Mulang.Ast
 import qualified Language.Mulang.Ast.Operator as O
